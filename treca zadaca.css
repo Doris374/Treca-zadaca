@@ -1,0 +1,81 @@
+.navbar {
+    height: 150px;
+    color: gray;
+    display: flex;
+    justify-content: flex-end;
+
+
+    }
+.dropdown   {
+    position: relative;
+    display: inline-block;
+    }
+.dropdown-content   {
+    display: none;
+    position: apsolute;
+    }
+.dropdown:hover .dropdown-content  {
+    display: block;}
+.dropdown-content a {
+   display: block;
+   width: 26px;
+   }
+
+
+
+a    {
+text-decoration: none;
+color: gray;
+}
+.dropdown-button   {
+margin: 5px;
+border: none;}
+.fa-google   {
+margin: 5px;}
+.link {
+margin: 5px;
+padding-left: 2px;
+padding-right: 2 px;
+}
+#prvi {
+margin: 3px;}
+#drugi  {
+matgin: 3px;}
+.main   {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+
+.img    {
+  width: 300px;
+  height: 100px;
+  margin: 5px;
+}
+.gumbi  {
+    display: flex;
+    flex-direction: row;
+    }
+
+.gumb {
+    margin: 5px;}
+#tražilica  {
+margin: 12px;
+width: 500px;
+height: 30px;
+}
+.impresum   {
+    height: 180px;
+    display: flex;
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-between;
+    }
+.desno {
+   margin: 4px;
+   }
+ .lijevo {
+   margin: 4px;
+   }
